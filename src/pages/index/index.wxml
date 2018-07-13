@@ -1,0 +1,6 @@
+<view>
+    <view wx:for="{{img}}" class="item-{{index}}" style="display: flex;justify-content: center">
+        <image style="margin-top: 20rpx;width: 200px; height: 200px; background-color: #eeeeee; display: {{index < __LAZT_LOAD_COUNT + 1 ? 'block' : 'none'}}" mode="scaleToFill" src="{{item}}"></image>
+    </view>
+
+</view>

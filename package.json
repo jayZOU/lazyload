@@ -1,0 +1,22 @@
+{
+  "name": "lazyload",
+  "version": "0.1.0",
+  "description": "性能更优越的小程序懒加载库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayZOU/lazyload.git"
+  },
+  "keywords": [
+    "lazyload"
+  ],
+  "author": "jayzou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayZOU/lazyload/issues"
+  },
+  "homepage": "https://github.com/jayZOU/lazyload#readme"
+}
