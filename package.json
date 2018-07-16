@@ -1,6 +1,6 @@
 {
   "name": "lazyload",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "性能更优越的小程序懒加载库",
   "main": "index.js",
   "scripts": {

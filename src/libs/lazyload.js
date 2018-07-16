@@ -12,12 +12,12 @@ export default class LazyLoad{
 			__LAZT_LOAD_COUNT: this.initNum
 		})
 
+		if(!this.isSupport()) console.error('wx.createIntersectionObserver is not a function')
 
-
-		// this.observe();
 	}
 
 	observe(){
+		if(!this.isSupport()) return;
 		const that = this;
 		this.intersectionObserver = wx.createIntersectionObserver();
 
@@ -28,8 +28,11 @@ export default class LazyLoad{
 					__LAZT_LOAD_COUNT: that.page.data.__LAZT_LOAD_COUNT + that.limit
 				})
 				that.observe();
-				console.log(res);
 			}
 		})
+	}
+
+	isSupport(){
+		return !!wx.createIntersectionObserver
 	}
 }

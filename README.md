@@ -1,12 +1,14 @@
 # lazyload
 性能更优越的小程序懒加载库
+
+
 ![enter image description here](https://user-gold-cdn.xitu.io/2018/7/13/16493c391403e98f?w=378&h=635&f=gif&s=2743718)
 
 ## install
 [链接下载](https://raw.githubusercontent.com/jayZOU/lazyload/master/src/libs/lazyload.js)
 
 ## Usage
-```
+```javascript
 //page.js
 import lazyLoad from '../../libs/lazyload';
 let lazyload;
@@ -29,7 +31,7 @@ Page({
 })
 ```
 初始化完成之后会在data添加`__LAZT_LOAD_COUNT`字段，用来标识当前加载到第几张图，业务方自行判断节点挂载，例如
-```
+```html
 //page.wxml
 
 <view>
