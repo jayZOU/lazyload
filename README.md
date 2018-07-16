@@ -2,7 +2,7 @@
 性能更优越的小程序懒加载库
 
 
-![enter image description here](https://user-gold-cdn.xitu.io/2018/7/13/16493c391403e98f?w=378&h=635&f=gif&s=2743718)
+![enter image description here](https://raw.githubusercontent.com/jayZOU/lazyload/master/lazyload.gif)
 
 ## install
 [链接下载](https://raw.githubusercontent.com/jayZOU/lazyload/master/src/libs/lazyload.js)
